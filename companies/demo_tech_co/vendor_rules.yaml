@@ -1,0 +1,15 @@
+rules:
+  - rule_id: cht_telecom
+    match_vendor_tax_id: "96979933"
+    match_keywords: ["中華電信", "光世代"]
+    debit_account_code: "6121"
+    credit_account_code: "1113"
+    vat_deductible: true
+    note: 中華電信網路與電話費固定走銀行扣款，歸 6121 郵電費
+  - rule_id: thsr_rail
+    match_vendor_tax_id: "16446274"
+    match_keywords: ["台灣高鐵", "高鐵"]
+    debit_account_code: "6124"
+    credit_account_code: "1112"
+    vat_deductible: true
+    note: 台灣高鐵出差車票歸 6124 旅費

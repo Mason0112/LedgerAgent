@@ -1,0 +1,51 @@
+accounts:
+  - code: "1111"
+    name: 現金
+    category: asset
+    normal_side: debit
+    description: 門市收銀與採購現金
+  - code: "1113"
+    name: 銀行存款
+    category: asset
+    normal_side: debit
+    description: 公司銀行帳戶
+  - code: "1261"
+    name: 進項稅額
+    category: asset
+    normal_side: debit
+    description: 可扣抵進項稅額 (5%)
+  - code: "1651"
+    name: 營業生財器具
+    category: asset
+    normal_side: debit
+    description: 義式咖啡機、磨豆機、冷藏設備 (>= 50,000)
+  - code: "5111"
+    name: 進貨成本
+    category: cost
+    normal_side: debit
+    description: 咖啡豆、鮮奶、食材與競品試飲原料
+  - code: "5112"
+    name: 包裝材料費
+    category: cost
+    normal_side: debit
+    description: 紙杯、杯蓋、紙袋、吸管
+  - code: "6116"
+    name: 雜項購置
+    category: expense
+    normal_side: debit
+    description: 未達資本化門檻之器具與小物
+  - code: "6122"
+    name: 水電瓦斯費
+    category: expense
+    normal_side: debit
+    description: 門市電費、水費與瓦斯費
+  - code: "6241"
+    name: 平台手續費
+    category: expense
+    normal_side: debit
+    description: 外送平台抽成與行銷費用
+  - code: "6299"
+    name: 其他費用
+    category: expense
+    normal_side: debit
+    description: 其他一般營業費用

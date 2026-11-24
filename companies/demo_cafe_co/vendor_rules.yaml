@@ -1,0 +1,15 @@
+rules:
+  - rule_id: milk_supplier
+    match_vendor_tax_id: ""
+    match_keywords: ["鮮乳坊", "義美鮮奶", "鮮奶", "咖啡豆"]
+    debit_account_code: "5111"
+    credit_account_code: "1111"
+    vat_deductible: true
+    note: 鮮奶與咖啡豆固定歸 5111 進貨成本
+  - rule_id: packaging_cups
+    match_vendor_tax_id: ""
+    match_keywords: ["紙杯", "杯蓋", "吸管", "外帶袋"]
+    debit_account_code: "5112"
+    credit_account_code: "1111"
+    vat_deductible: true
+    note: 包材一律歸 5112 包裝材料費

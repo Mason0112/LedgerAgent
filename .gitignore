@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+*.db
+
+# Env & Uploads & Screenshots
+backend/.env
+backend/uploads/
+playwright_screenshots/
+
+# Node / React
+frontend/node_modules/
+frontend/dist/
+.DS_Store

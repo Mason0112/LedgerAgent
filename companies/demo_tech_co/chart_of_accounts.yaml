@@ -1,0 +1,76 @@
+accounts:
+  - code: "1111"
+    name: 現金
+    category: asset
+    normal_side: debit
+    description: 庫存現金
+  - code: "1112"
+    name: 零用金
+    category: asset
+    normal_side: debit
+    description: 日常小額報支與員工代墊結算
+  - code: "1113"
+    name: 銀行存款
+    category: asset
+    normal_side: debit
+    description: 公司活期存款帳戶
+  - code: "1261"
+    name: 進項稅額
+    category: asset
+    normal_side: debit
+    description: 可扣抵之營業稅進項稅額 (5%)
+  - code: "1641"
+    name: 辦公設備
+    category: asset
+    normal_side: debit
+    description: 達資本化門檻之電腦與硬體設備
+  - code: "2141"
+    name: 應付帳款
+    category: liability
+    normal_side: credit
+    description: 尚未支付之供應商貨款
+  - code: "2171"
+    name: 應付費用
+    category: liability
+    normal_side: credit
+    description: 月結未付之費用款項
+  - code: "6115"
+    name: 文具用品
+    category: expense
+    normal_side: debit
+    description: 紙張、文具、碳粉等辦公耗材
+  - code: "6116"
+    name: 雜項購置
+    category: expense
+    normal_side: debit
+    description: 未達資本化門檻之電腦周邊與器材
+  - code: "6121"
+    name: 郵電費
+    category: expense
+    normal_side: debit
+    description: 網路、電話、快遞與郵資
+  - code: "6123"
+    name: 交際費
+    category: expense
+    normal_side: debit
+    description: 客戶招待餐飲與禮品（進項稅額不可扣抵）
+  - code: "6124"
+    name: 旅費
+    category: expense
+    normal_side: debit
+    description: 國內外出差交通費、高鐵、計程車與油資
+  - code: "6125"
+    name: 職工福利
+    category: expense
+    normal_side: debit
+    description: 員工聚餐、下午茶與福利活動（進項稅額不可扣抵）
+  - code: "6251"
+    name: 雲端服務費
+    category: expense
+    normal_side: debit
+    description: 雲端主機、API 費用與 SaaS 訂閱
+  - code: "6299"
+    name: 其他費用
+    category: expense
+    normal_side: debit
+    description: 無法歸類於上述項目之一般營業費用

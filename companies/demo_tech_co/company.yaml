@@ -1,0 +1,9 @@
+company_id: demo_tech_co
+name: 星辰科技股份有限公司
+tax_id: "83124567"
+industry: 軟體與雲端服務業
+currency: TWD
+vat_rate: 0.05
+default_payment_account: "1112"
+capitalization_threshold: 80000
+description: B2B SaaS 軟體開發公司，重視研發費用與雲端基礎設施歸屬，嚴格區分員工福利與交際費。

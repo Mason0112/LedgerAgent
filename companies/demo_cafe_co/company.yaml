@@ -1,0 +1,9 @@
+company_id: demo_cafe_co
+name: 晨光咖啡有限公司
+tax_id: "54987612"
+industry: 餐飲與咖啡烘焙零售
+currency: TWD
+vat_rate: 0.05
+default_payment_account: "1111"
+capitalization_threshold: 50000
+description: 連鎖精品咖啡廳，大量採購咖啡豆、鮮奶、外帶杯與店面設備，採現金與銀行匯款雙軌。
